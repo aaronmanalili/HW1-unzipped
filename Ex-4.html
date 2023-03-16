@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<!-- Ex-4 by Aaron Manalili -->
+<!-- CSIT 337-02-->
+
+<html>
+    <head>
+        <meta charset= "utf-8">
+        <title>Ex-4</title>
+
+        <style type = "text/css">
+            form
+            {
+                float: Left;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1><strong>Aaron Manalili</strong></h1>
+
+        <p>
+            <img src= "299011519_567213761861357_6983736204722266621_n.png" width= "120" height= "120"
+                alt = "MSU-CCIS-logo">
+        </p>
+
+        <hr>
+
+        <form method= "post" action="index.html">
+        <h2><strong>Red Hawk Hotel Reservation Form</strong></h2>
+
+        <p><label>First Name:
+            <input type= "text" id = "firstName" autofocus required 
+              placeholder = "First Name"/> 
+        </label></p>
+
+        <p><label>Last Name:
+            <input type= "text" id = "lastName" required
+              placeholder = "Last Name" /> 
+        </label></p>
+
+        <p><label>Check-in Date:
+            <input type= "date" id = "Check-in Date" required/> 
+        </label></p>
+
+        <p><label> Check-out Date:
+            <input type = "date" id = "Check-out Date" required />
+        </label></p>
+
+        <p><label>E-mail Address:
+            <input type= "text" id = "E-mail Address" required
+               placeholder= "name@domain.com"/>
+        </label></p>
+
+        <p><label>Payment Method:
+            <select name= "Payment"> <!-- Try autocomplete function -->
+                <option value = "MC">Mastercard</option>
+                <option value = "Visa">Visa</option>
+                <option value = "American Express">American Express</option>
+                <option value = "Discover">Discover</option>
+
+            </select>
+        </label></p>
+
+        <p><label>Card Number:
+            <input type= "text" id = "Card Number" required />
+        </label></p>
+        
+        <p><label><strong>Special Requests:</strong>
+            <textarea name = "Special Requests"
+            rows= "4" cols = "36">Enter your request here</textarea>
+        </label></p>
+
+        <p>
+            <input type = "submit" value= "Reserve"/>
+            <input type = "reset" value= "Clear"/>
+        </p>
+
+        <footer>
+            <hr>
+            <p> &copy; 2023</p>
+        </footer>        
+      
+    </form>
+    
+  </body>
+
+</html>
+

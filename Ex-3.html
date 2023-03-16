@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<!--Ex-3: Nested Lists by Aaron Manalili-->
+<!--CSIT 337-02-->
+<html>
+    <head>
+        <meta charset= "utf-8">
+        <title>Ex-3</title>
+
+        <style>
+           ol{
+                padding-bottom: 15px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1 style = "color: blue;">Aircraft Types</h1>
+
+        <ul>
+            <ul style="list-style-type:disc">
+                <li>General Aviation (piston-driven engines)</li>
+                    <ol>
+                        <li>Single-Engine Aircraft</li>
+                            <ol>
+                                <li type="I">Tail wheel</li>
+                                <li type="I">Tricycle</li>
+                            </ol>
+                        
+                        <li>Dual-Engine Aircraft</li> 
+                            <ol>
+                                <li type="A">Wing-mounted engines</li>
+                                <li type="A">Push-pull fuselage-mounted engines</li>
+                            </ol>
+
+                    </ol>
+            </ul>
+
+            <ul style="list-style-type:disc">
+                <li>Commercial Aviation (jet engines)</li>
+                    <ol>
+                        <li>Dual-Engine</li>
+                            <ol>
+                                <li type="a">Wing-mounted engines</li>
+                                <li type="a">Push-pull fuselage-mounted engines</li>
+                            </ol>
+                      
+                        <li>Tri-Engine</li>
+                            <ol>
+                                <li type = "i">Third engine in vertical stabilizer</li>
+                                <li type = "i">Third engine in fuselage</li>
+                            </ol>
+                    </ol>
+            </ul>
+        
+        </ul>
+    </body>
+</html>
